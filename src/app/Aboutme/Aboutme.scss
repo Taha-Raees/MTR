@@ -1,0 +1,105 @@
+.Aboutme{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top:6.5rem;
+   .Heading{
+    display: flex;
+    font-family: TTDrugs;
+    font-size: 25px;
+    color: #FDBF00;
+    padding-top: 3rem;
+    padding-left: 2rem;
+   }
+   .Intro{
+    display: flex;
+    padding: 30px 30px;
+    align-items: center;
+    margin-top: -12rem;
+    gap: 5rem;
+   .MyStack{
+    flex: 1;
+    position: relative;
+    width: 50vw;
+    margin-left: -35vw;
+    margin-right: 15vw;
+    @media only screen and (max-width: 700px){
+        flex: 1;
+        display: flex;
+        height: 40vh;
+        width: 100%;
+        scale: 0.8;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+       margin-right: auto;
+    }
+    
+ }
+   .Video{
+    flex:1;
+    video{
+    border: 2px solid #000000;
+    border-radius: 15px;
+    }
+   }
+
+   }
+   .WebDesign{
+    display: flex;
+    height: 100vh;
+    margin: 0 5vw;
+    .left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 35vh;
+        .text{
+            margin-top: 8vh;
+            gap: 5vh;
+            display: flex;
+            flex-direction: column;
+            color: #FDBF00;
+            font-family: TTDrugs;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+    .middle{
+        flex: 2;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .img1{
+            position: absolute;
+            z-index: 3;
+            width: 20vw;
+            height: auto;
+            left: -5%;
+        }
+        .img2{
+            position: absolute;
+            width: 45vw;
+            height: auto;
+            
+        }
+    }
+    .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img3{
+            width: 20vw;
+            height: auto;
+        }
+        .img4{
+            width: 25vw;
+            height: auto;
+        }
+    }
+   }
+}
