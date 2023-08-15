@@ -1,14 +1,15 @@
 .Notification{
-  background: #ffffff;
+  
   position: fixed;
   top: 0;
   left: 0;
   z-index: 11;
   width: 100%;
   height: 1.5rem;
+  background-color: #a81a1a;
   
   .notificationBar {
-    background-color: #a81a1a;
+    max-width:70%;
     color: #ffffff;
     text-align: center;
     font-weight: bold;

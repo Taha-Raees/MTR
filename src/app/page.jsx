@@ -14,7 +14,7 @@ export default function Home() {
   const animationOpacity = {
     visible: {
       opacity: 1,
-      transition: { duration: 2.5 },
+      transition: { duration: 0.7 , delay:0.5,},
     },
     hidden: {
       opacity: 0,

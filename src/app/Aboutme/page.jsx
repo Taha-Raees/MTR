@@ -18,7 +18,7 @@ const Aboutme = () => (
       </div>
       <div className="Video">
         <video autoPlay muted loop style={{ width: '90%', height: 'auto' }}>
-          <source src="/video/My Name Is (1).mp4" type="video/mp4" />
+          <source src="/Video/My Name Is (1).mp4" type="video/mp4" />
         </video>
       </div>
     </div>
