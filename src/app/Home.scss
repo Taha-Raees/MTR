@@ -80,7 +80,7 @@
                     span{
                         font-size: 0.9rem;
                         padding: 10px 10px;
-                        border: 1px solid black;
+                        border: 1px solid ;
                         font-family: TTDrugs;
                         font-weight: 300;
                         border-radius:50px ;
@@ -89,8 +89,9 @@
                         top: 2.5vh;
                         left: 0vw;
                         &:hover {
-                            background-color: #e3e3e3;
-                        font-size: 1rem;
+                            background-color: #FDBF00;
+                            color: #360808;
+                            font-size: 1rem;
                         }
                     }
                 }
@@ -294,7 +295,8 @@
                     border-radius:50px ;
                     transition: background-color 0.3s ease-in-out;
                     &:hover {
-                        background-color: #e3e3e3;
+                        background-color: #360808;
+                        color: #ffffff;
                     font-size: 1rem;
                     }
                 }

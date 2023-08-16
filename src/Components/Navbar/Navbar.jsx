@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import './/Navbar.scss';
-import styles from './/Navbar.scss'; 
 const Navbar = () => {
     const navigation = [
         {
@@ -32,7 +31,6 @@ const Navbar = () => {
             img:'/images/2.svg',
             url:'/Contact'
         },
-       
     ];
     const admin = [
         {
@@ -48,13 +46,8 @@ const Navbar = () => {
             url:'/Register'
         }
     ]
-  const commonAnimation = {
-    initial:{ x : -250},
-    animate: { x: 0 },
-    transition: { delay: 0, type: 'tween' },
-  };
 
-  const commonAdminAnimation = {
+  const commonAnimation = {
     initial:{ y: -250 },
     animate:{ y: 0 },
     transition:{delay:0, type:'spring', stiffness:80 },
@@ -69,7 +62,7 @@ const Navbar = () => {
                         <motion.div
                         {...commonAnimation}
                         >
-                            <Link href={nav.url}> <Image   src={nav.img} alt="My SVG Image" width={30} height={30}/>{nav.Title}</Link>
+                            <Link href={nav.url}> <Image className='img'  src={nav.img} alt="My SVG Image" width={30} height={30}/>{nav.Title}</Link>
                         </motion.div>
                     </div>
                 )})}
@@ -84,8 +77,8 @@ const Navbar = () => {
                     return (
                     <div key={ad.id} className="nav-item">
                         <motion.div 
-                        {...commonAdminAnimation}>
-                             <Link href={ad.url}><Image src={ad.img} alt="My SVG Image" width={30} height={30} />{ad.Title}</Link>
+                        {...commonAnimation}>
+                             <Link href={ad.url}><Image className='img' src={ad.img} alt="My SVG Image" width={30} height={30} />{ad.Title}</Link>
                         </motion.div>
                     </div>
                 )})}

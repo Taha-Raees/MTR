@@ -30,7 +30,12 @@
             &:hover {
                 scale: 1.2;
                 color: #FDBF00;
+                .img{
+                background-color: #fdbe00;
+                border-radius: 45% ;
             }
+            }
+            
         }
     }
     .Nav2{
@@ -47,7 +52,11 @@
             scale: 1;
             &:hover {
                 scale: 1.2;
-                color: #FDBF00;
+                color: #fdbe00;
+                img{
+                    background-color: #fdbe00;
+                    border-radius: 45% ;
+                }
             }
         }
     }
