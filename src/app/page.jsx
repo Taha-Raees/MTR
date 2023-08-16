@@ -120,9 +120,11 @@ export default function Home() {
                       <Image src="/images/img1.png" alt="My SVG Image" width={100} height={100} layout="responsive" />
                     </motion.div>
                   </div>
+                    <span className="circle"></span>
                 </div>
               )}
-            </InView><InView triggerOnce={false}>
+            </InView>
+            <InView triggerOnce={false}>
               {({ inView, ref }) => (
                 <div className="mydesign">
                   <div className="left">
@@ -143,6 +145,7 @@ export default function Home() {
                     <h2>  I excel at translating design concepts into responsive and interactive web applications.</h2>
                     <p>  I love collaborating on the development of interactive and dynamic web applications using React/Next.js. Whether it"s building a single-page application, a dashboard, or a data visualization tool, I enjoy creating seamless user experiences and incorporating modern UI/UX design principles.</p>
                   </motion.div>
+                  <span className="circle"></span>
                 </div>
               )}
             </InView><div className="contactme">

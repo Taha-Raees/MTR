@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="text">
           <p>© 2023 MTR. All rights reserved.</p>
           <hr />
-          <h3>Version 0.10</h3>
+          <h3>Version 0.50. Last update 16/08/23</h3>
           <h2>Website Designed using Next.js</h2>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Mywork = () => {
       <div className="Text">
        <h1>I am currently working on this website.</h1>
        
-       <h2>Please Check My work on <a href="https://taha-raees.github.io/Portfolio/#work"> https://taha-raees.github.io/Portfolio/</a></h2>
+       <h2>Please Check My work on <a href="https://taha-raees.github.io/Portfolio/#work" target="_blank" rel="noopener noreferrer"> https://taha-raees.github.io/Portfolio/</a></h2>
       </div>
     </div>
   )

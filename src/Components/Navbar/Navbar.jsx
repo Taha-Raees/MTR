@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import './/Navbar.scss';
-
+import styles from './/Navbar.scss'; 
 const Navbar = () => {
     const navigation = [
         {
@@ -48,8 +48,8 @@ const Navbar = () => {
             url:'/Register'
         }
     ]
-   
   const commonAnimation = {
+    initial:{ x : -250},
     animate: { x: 0 },
     transition: { delay: 0, type: 'tween' },
   };
@@ -66,11 +66,10 @@ const Navbar = () => {
                 {navigation.map((nav) => {
                     return (
                     <div key={nav.id} className="nav-item">
-                        
                         <motion.div
-                        {...commonAnimation} 
+                        {...commonAnimation}
                         >
-                            <Link href={nav.url}> <Image src={nav.img} alt="My SVG Image" width={30} height={30}/>{nav.Title}</Link>
+                            <Link href={nav.url}> <Image   src={nav.img} alt="My SVG Image" width={30} height={30}/>{nav.Title}</Link>
                         </motion.div>
                     </div>
                 )})}
