@@ -195,17 +195,17 @@
                 }
             }
             .circle{
-                width: 30vh;
-                height: 30vh;
+                width: 35vh;
+                height: 35vh;
                 border-radius: 50%;
-                background-color: #360808;
+                background-color: #FDBF00;
                 display: flex;
                 top: 65vh;
                 right: 75vw;
                 position: relative;
                 z-index: 0;
                 &:hover {
-                    background-color: #FDBF00;
+                    background-color: #360808;
                     scale: 1.05;
                 }
                 @media only screen and (max-width: 700px){
@@ -317,14 +317,14 @@
             width: 35vh;
             height: 35vh;
             border-radius: 50%;
-            background-color: #FDBF00;
+            background-color: #360808;
             display: flex;
             top: 50vh;
             right: 10vw;
             position: relative;
             z-index: 0;
             &:hover {
-                background-color: #360808;
+                background-color: #FDBF00;
                 scale: 1.05;
             }
         }
