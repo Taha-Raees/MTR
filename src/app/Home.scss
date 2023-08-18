@@ -105,42 +105,60 @@
             @media only screen and (max-width: 700px){
             height: 100vh;
             flex-direction: column;
+            gap: 2.5rem;
+            position: relative;
             }
             .left{
                 flex: 1;
                 margin-left: 10vw;
                 margin-top: 15vh;
                 z-index: 1;
+                color: #333333;
                 @media only screen and (max-width: 700px){
-                    margin-left: 0vw;
-                    margin-top: 0vh;
+                    margin-left: auto;
+                    margin-top: 2rem;
                     flex: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                 }
                 h1{
                     font-size: 4.8rem;
                     font-family: DreamAvenue;
                     font-weight: 100;
-                    color: 333333
+                    @media only screen and (max-width: 700px){
+                        font-size: 3.8rem;
+                    }
                 }
                 hr{
                     width: 80%;
-                    border: 0.5px solid 333333;
+                    border: 0.5px solid #333333;
                 }
                 h2{
-                    color: 333333;
                     font-weight: 100;
                     font-size: 2rem;
                     font-family: TTDrugs;
                     margin-top: 5rem;
                     padding-right: 15rem;
+                    @media only screen and (max-width: 700px){
+                       font-size: 1.8rem;
+                       margin-top: 2rem ;
+                       padding-right: 2rem;
+                       text-align: center;
+                    }
                 }
                 p{
                     margin-top: 2.5em;
                     padding-right: 9rem;
-                    color: 333333;
                     font-weight: 100;
                     font-size: 1.2rem;
                     font-family: TTDrugs;
+                    @media only screen and (max-width: 700px){
+                    font-size: 1rem;
+                    margin-top: 2rem ;
+                    padding-right: 2rem;
+                    text-align: center
+                }
                 }
             }
             .right{
@@ -153,11 +171,27 @@
                 overflow: hidden;
                 height: auto;
                 margin-right: -10vw;
+                @media only screen and (max-width: 700px){
+                    flex: 0; 
+                    z-index: 1;
+                     border-radius: 2%;
+                     margin-right: auto;
+                     width: 100%;
+                     height: 100%;
+                     overflow: visible;
+
+                }
                 .img{
                     width: 44vw;
                     border: 1px solid black;
                     border-radius: 5%;
                     overflow: hidden;
+                    @media only screen and (max-width: 700px){
+                        width: 100%;
+                     height: auto;
+                     border: none;
+                     border-radius: 2%;
+                    }
                 }
             }
             .circle{
@@ -174,6 +208,9 @@
                     background-color: #FDBF00;
                     scale: 1.05;
                 }
+                @media only screen and (max-width: 700px){
+                display: none;
+                }
             }
         }
    .mydesign{
@@ -182,17 +219,39 @@
             height: 90vh ;
             align-items: center;
             background-color: #e0e0e0;
-            .right{
+                @media only screen and (max-width: 700px){
+                height: 100vh;
+                display: flex;
+                flex-direction: column-reverse;
+                z-index: 0;
+                justify-content: center;
+                position: relative;
+                }
+               .right{
                 flex: 1;
                 z-index: 1;
                 margin-right: -10vw;
+                color: #333333;
+                @media only screen and (max-width: 700px){
+                    margin-right: 0;
+                    flex: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: absolute;
+                    top: -50vh;
+                }
                 h1{
                     font-size: 4.8rem;
                     font-family: DreamAvenue;
                     font-weight: 100;
                     margin-top: 2rem;
                     margin-left: 2rem;
-                    color: #333333;
+                    @media only screen and (max-width: 700px){
+                        font-size: 3.8rem;
+                        margin-top: 0;
+                        margin-left: 0;
+                    }
                 }
                 hr{
                     width: 80%;
@@ -200,22 +259,32 @@
                     border: 0.5px solid 333333;
                 }
                 h2{
-                    color: #333333;
                     font-weight: 100;
                     font-size: 1.8rem;
                     font-family: TTDrugs;
                     margin-top: 5rem;
                     padding-right: 20rem;
                     margin-left: 2rem;
+                    @media only screen and (max-width: 700px){
+                        font-size: 1.8rem;
+                        margin-top: 2rem ;
+                        padding-right: 2rem;
+                        text-align: center;
+                     }
                 }
                 p{
                     margin-left: 2rem;
                     margin-top: 1.9em;
                     padding-right: 9rem;
-                    color: #333333;
                     font-weight: 100;
                     font-size: 1.2rem;
                     font-family: TTDrugs;
+                    @media only screen and (max-width: 700px){
+                        font-size: 1rem;
+                        margin-top: 2rem ;
+                        padding-right: 2rem;
+                        text-align: center
+                    }
                 }
             }
         .left{
@@ -225,9 +294,23 @@
                 align-items: center;
                 margin-left: 3.5vh;
                 border-radius: 50%;
+                @media only screen and (max-width: 700px){
+                    flex: 0; 
+                     margin-right: 0;
+                     width: 100%;
+                     height: 100%;
+                     overflow: visible;
+
+                }
                 .img{
                 width: 60vh;
                     margin-top: 4.8rem;
+                    @media only screen and (max-width: 700px){
+                     height: auto;
+                     width: 10vw;
+                     margin-top: 0;
+
+                    }
                 }
             }
         .circle{
