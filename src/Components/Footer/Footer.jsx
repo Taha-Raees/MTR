@@ -24,7 +24,7 @@ const Footer = () => {
           <p>© 2023 MTR. All rights reserved.</p>
           <hr />
           <h3>Version 0.50. Last update 06/09/23</h3>
-          <h2>Website Designed using Next.js</h2>
+          <h2>Website designed using Next.js</h2>
           </div>
         </div>
         <div className='img'>
