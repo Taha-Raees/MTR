@@ -73,7 +73,7 @@ export default function Home() {
                   <ambientLight intensity={0.5} />
                   <directionalLight position={[-1, -2, 3]} />
                   <Sphere args={[1, 100, 200]} scale={2.7}>
-                    <MeshDistortMaterial color="#360808" attach="material" distort={0.55} speed={1.2} />
+                    <MeshDistortMaterial color="#d3d2d1" attach="material" distort={0.55} speed={1.2} />
                   </Sphere>
                 </Canvas>
               </div>
