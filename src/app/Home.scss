@@ -95,6 +95,7 @@
                             color: #360808;
                             font-size: 1rem;
                         }
+
                         @media only screen and (max-width: 900px){
                           left: 25vw;
                         }
@@ -206,7 +207,7 @@
                 background-color: #FDBF00;
                 display: flex;
                 top: 39em;
-                right: 75vw;
+                right: 57vw;
                 position: relative;
                 z-index: 0;
                 &:hover {
