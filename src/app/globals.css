@@ -3,8 +3,12 @@
   src: url('/Font/FontsFree-Net-Dream-Avenue.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'TTDrugs';
-    src: url('/Font/TT Drugs Trial Thin.otf') format('truetype');
+font-family: 'TTDrugs';
+src: url('/Font/TT Drugs Trial Thin.otf') format('truetype');
+  }
+@font-face {
+font-family: 'TTDrugs2';
+src: url('/Font/TT Drugs Trial Italic.otf') format('truetype');
   }
 * {
     box-sizing: border-box;

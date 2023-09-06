@@ -1,5 +1,4 @@
 .Notification{
-  
   position: fixed;
   top: 0;
   left: 0;
@@ -7,12 +6,10 @@
   width: 100%;
   height: 1.5rem;
   background-color: #410b0b;
-  
   .notificationBar {
-    max-width:70%;
     color: #ffffff;
-    text-align: center;
     font-weight: bold;
     padding: 2.5px;
+    white-space: nowrap;
   }
 }

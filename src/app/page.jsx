@@ -28,7 +28,7 @@ export default function Home() {
 
     },
     hidden: {
-      x: "-55vh",
+      x: "-60vw",
 
     },
   };
@@ -39,7 +39,7 @@ export default function Home() {
 
     },
     hidden: {
-      x: "65vh",
+      x: "25%",
 
     },
   };
@@ -73,7 +73,7 @@ export default function Home() {
                   <ambientLight intensity={0.5} />
                   <directionalLight position={[-1, -2, 3]} />
                   <Sphere args={[1, 100, 200]} scale={2.7}>
-                    <MeshDistortMaterial color="#d3d2d1" attach="material" distort={0.55} speed={1.2} />
+                    <MeshDistortMaterial color="#360808" attach="material" distort={0.55} speed={1.2} />
                   </Sphere>
                 </Canvas>
               </div>
@@ -148,7 +148,8 @@ export default function Home() {
                   <span className="circle"></span>
                 </div>
               )}
-            </InView><div className="contactme">
+            </InView>
+            <div className="contactme">
               <div className="right">
                 <h1>CONTACT ME</h1>
                 <hr />
