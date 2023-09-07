@@ -12,11 +12,10 @@ const Notification= () => {
       animate={{ x: '100%' }}
       transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
     >
-      Website is still under Construction. Sorry for any inconvenience.
+      Website is still under Construction. Some pages may not load properly on mobile devices. Sorry for any inconvenience.
     </motion.div>
     </div>
   );
 };
-
 export default Notification;
 
