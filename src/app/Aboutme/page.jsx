@@ -18,9 +18,9 @@ const Aboutme = () => (
       <div className="right">
       <Image src="/images/MTRImages.svg" alt="My SVG Image" width={150} height={150} layout='responsive' />
       </div>
-      <div className="blur2">
+      {/* <div className="blur2">
       <Image src="/images/Blur.svg" alt="My SVG Image" width={150} height={150} layout='responsive' />
-      </div>
+      </div> */}
     </div>
     <div className="stack">
     <div className="Heading">
