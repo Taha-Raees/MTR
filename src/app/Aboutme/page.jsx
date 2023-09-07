@@ -2,20 +2,24 @@
 import React from 'react'
 import Image from 'next/image'
 import './/Aboutme.scss';
-import { OrbitControls } from '@react-three/drei'
-import { Canvas } from '@react-three/fiber'
 import Cube2 from '@/Components/Cube/Cube2';
 
 
 const Aboutme = () => (
   <div className="Aboutme">
     <div className="Intro">
+    <div className="blur">
+      <Image src="/images/Blur.svg" alt="My SVG Image" width={150} height={150} layout='responsive' />
+      </div>
       <div className="left">
         <h1>Welcome to My Design Portfolio</h1>
         <div className="name"><h2>Muhammad Taha Raees</h2></div>
       </div>
       <div className="right">
       <Image src="/images/MTRImages.svg" alt="My SVG Image" width={150} height={150} layout='responsive' />
+      </div>
+      <div className="blur2">
+      <Image src="/images/Blur.svg" alt="My SVG Image" width={150} height={150} layout='responsive' />
       </div>
     </div>
     <div className="stack">
