@@ -11,9 +11,17 @@
         display: flex;
         gap: 20vw;
         align-items: center;
+        .Logo{
+            @media only screen and (max-width: 700px){
+                display: none;
+            }
+        }
         .img{
             width: 7em;
             rotate: -40deg;
+            @media only screen and (max-width: 900px){
+                display: none;
+            }
         }
         .middle{
             display: flex;

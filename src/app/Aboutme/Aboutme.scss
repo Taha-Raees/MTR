@@ -2,47 +2,94 @@
     width: 100%;
     background-color: rgb(0, 0, 0);
     margin-top:6.5rem;
-   .Heading{
-    display: flex;
-    font-family: TTDrugs;
-    font-size: 25px;
-    color: #FDBF00;
-    padding-top: 3rem;
-    padding-left: 2rem;
-   }
-   .Intro{
-    display: flex;
-    padding: 30px 30px;
-    align-items: center;
-    margin-top: -12rem;
-    gap: 5rem;
-   .MyStack{
-    flex: 1;
-    position: relative;
-    width: 50vw;
-    margin-left: -35vw;
-    margin-right: 15vw;
-    @media only screen and (max-width: 700px){
-        flex: 1;
+    .Intro{
         display: flex;
-        height: 40vh;
-        width: 100%;
-        scale: 0.8;
+        
+        .left{
+            flex: 1;
+            margin: 5rem 14rem 0 4rem;
+            h1{
+                font-family: DreamAvenue;
+                font-size: 7vw;
+                color: #fdbe00;
+                
+            }
+            .name{
+                background-color: rgba(255, 255, 255, 0.767);
+                border-radius: 55px;
+                h2 {
+                    margin-top: 7vh;
+                    font-family: TTDrugs;
+                    border: 8px double #360808;
+                    border-radius: 55px;
+                    font-size: 2.4vw;
+                    letter-spacing: 2px;
+                    padding: 0.4rem;
+                    text-align: center;
+                    background: linear-gradient(to right,#ce9c06,#360808,#fdbe00,rgb(194, 73, 73));
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    white-space: nowrap;
+                    background-clip: text;
+                    color: transparent;
+                    background-size: 200%;
+                    animation: background-pan 7s linear infinite;
+                    @keyframes background-pan {
+                        from{
+                            background-position: 0% center;
+                        }
+                        to{
+                            background-position: -200% center;
+                        }
+                    }
+                  }
+            }
+        }
+        .right{
+            flex:1;
+        }
+    }
+   .stack{
+    .Heading{
+        display: flex;
+        font-family: TTDrugs;
+        font-size: 25px;
+        color: #FDBF00;
+        padding-top: 3rem;
+        padding-left: 2rem;
+       }
+       .Cube{
+        display: flex;
+        padding: 30px 30px;
         align-items: center;
-        justify-content: center;
-        margin-left: auto;
-       margin-right: auto;
+        margin-top: -12rem;
+        gap: 5rem;
+       .MyStack{
+        flex: 1;
+        position: relative;
+        width: 50vw;
+        margin-left: -35vw;
+        margin-right: 15vw;
+        @media only screen and (max-width: 700px){
+            flex: 1;
+            display: flex;
+            height: 40vh;
+            width: 100%;
+            scale: 0.8;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+           margin-right: auto;
+        }
+     }
+       .Video{
+        flex:1;
+        video{
+        border: 2px solid #000000;
+        border-radius: 15px;
+        }
+       }
     }
-    
- }
-   .Video{
-    flex:1;
-    video{
-    border: 2px solid #000000;
-    border-radius: 15px;
-    }
-   }
-
    }
    .WebDesign{
     display: flex;

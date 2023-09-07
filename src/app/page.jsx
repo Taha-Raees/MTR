@@ -86,7 +86,7 @@ export default function Home() {
                   <h1>MUHAMMAD</h1>
                   <h1>TAHA</h1>
                   <h1>RAEES</h1>
-                  <h2>FRONT END DEVELOPER</h2>
+                  <h2>WEB DEVELOPER</h2>
                   <p>Are you in need of a talented and reliable front-end developer? Look no further! I am a skilled front-end developer with a passion for creating stunning and user-friendly websites. With expertise in HTML, CSS, and JavaScript.My proficiency in React allows me to efficiently build reusable and modular components, ensuring efficient code maintenance and scalability. I am well-versed in leveraging React libraries and frameworks to optimize performance and enhance user experience. </p>
                 </motion.div>
                 <InView triggerOnce={false}>

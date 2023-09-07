@@ -9,10 +9,20 @@ import Cube2 from '@/Components/Cube/Cube2';
 
 const Aboutme = () => (
   <div className="Aboutme">
+    <div className="Intro">
+      <div className="left">
+        <h1>Welcome to My Design Portfolio</h1>
+        <div className="name"><h2>Muhammad Taha Raees</h2></div>
+      </div>
+      <div className="right">
+      <Image src="/images/MTRImages.svg" alt="My SVG Image" width={150} height={150} layout='responsive' />
+      </div>
+    </div>
+    <div className="stack">
     <div className="Heading">
     <h1>My Development Stack</h1>
     </div>
-    <div className="Intro">
+    <div className="Cube">
       <div className="MyStack">
         <Cube2 />
       </div>
@@ -21,6 +31,7 @@ const Aboutme = () => (
           <source src="/Video/My Name Is (1).mp4" type="video/mp4" />
         </video>
       </div>
+    </div>
     </div>
     <div className="WebDesign">
       <div className="left">
