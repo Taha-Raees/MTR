@@ -12,7 +12,39 @@ const Aboutme = () => (
       <Image src="/images/Blur.svg" alt="My SVG Image" width={150} height={150} layout='responsive' />
       </div>
       <div className="left">
-        <h1>Welcome to My Design Portfolio</h1>
+      <h1 className="animate-text">
+  <span>W</span>
+  <span>e</span>
+  <span>l</span>
+  <span>c</span>
+  <span>o</span>
+  <span>m</span>
+  <span>e</span>
+  <span className='space'> </span>
+  <span>t</span>
+  <span>o</span>
+  <span> </span>
+  <span>M</span>
+  <span>y</span>
+  <span className='space'> </span>
+  <span>D</span>
+  <span>e</span>
+  <span>s</span>
+  <span>i</span>
+  <span>g</span>
+  <span>n</span>
+  <span className='space'> </span>
+  <div className="div"><span>P</span>
+  <span>o</span>
+  <span>r</span>
+  <span>t</span>
+  <span>f</span>
+  <span>o</span>
+  <span>l</span>
+  <span>i</span>
+  <span>o</span></div>
+</h1>
+
         <div className="name"><h2>Muhammad Taha Raees</h2></div>
       </div>
       <div className="right">

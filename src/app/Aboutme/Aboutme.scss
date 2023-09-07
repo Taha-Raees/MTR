@@ -26,11 +26,48 @@
             flex: 1;
             margin: 5rem 14rem 0 4rem;
             z-index: 2;
-            h1{
+            h1.animate-text {
                 font-family: DreamAvenue;
                 font-size: 7vw;
                 color: #fdbe00;
-            }
+                span{
+                   display: inline-block;
+                    &:hover{
+                        animation: jump 1s ease-in-out infinite, color-change 1s ease-in-out infinite;;
+                        animation-delay: 0s;
+                    }
+                }
+                .space{
+                    margin: 15px;
+                }
+
+
+                @keyframes jump {
+                  0%, 100% {
+                    transform: translateY(0);
+                  }
+                  50% {
+                    transform: translateY(-0.5em);
+                  }
+                }
+                @keyframes color-change {
+                    0% {
+                      color: #fdbe00;
+                    }
+                    25% {
+                      color: #5c1111;
+                    }
+                    50% {
+                      color: #5e153d;
+                    }
+                    75% {
+                      color: #ffffff;
+                    }
+                    100% {
+                      color: #fdbe00;
+                    }
+                  }
+              }
             .name{
                 background-color: rgba(255, 255, 255, 0.767);
                 border-radius: 55px;
