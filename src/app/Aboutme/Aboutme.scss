@@ -5,6 +5,7 @@
     
     .Intro{
         display: flex;
+        position: relative;
         .blur{
             position: absolute;
             top: -18vh;
